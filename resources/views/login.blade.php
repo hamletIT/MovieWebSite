@@ -113,9 +113,7 @@
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="text-bg">
-                                    <h1>amazing<br> 3d game</h1>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut</span>
-                                    <a href="#">download</a>
+                                   
                                 </div>
                             </div>
                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">

@@ -50,7 +50,57 @@
                                 <div class="center-desk">
                                     <div class="logo">
                                         <a href="index.html"><img src="images/logo.png" alt="#" /></a><!-- esi logona -->
-                                        
+                                        <div>
+                                            <form action="/logUser" method="POST" name="login" id="login-form">
+						                    @csrf  
+						                      <fieldset class="input">
+						                        <p id="login-form-username">
+						                    	  <label style="color:red;">Name</label><br>
+						                    	  				@error('name')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="name" class="inputbox" size="18" autocomplete="off" value="{{ old('name') }}">
+						                        </p>
+                                                <p id="login-form-username">
+						                    	  <label style="color:red;">Surname</label><br>
+						                    	  				@error('surname')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="Surname" class="inputbox" size="18" autocomplete="off" value="{{ old('Surname') }}">
+						                        </p>
+                                                <p id="login-form-username">
+						                    	  <label style="color:red;">Age</label><br>
+						                    	  				@error('age')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="age" class="inputbox" size="18" autocomplete="off" value="{{ old('age') }}">
+						                        </p>
+                                                <p id="login-form-username">
+						                    	  <label style="color:red;">Email</label><br>
+						                    	  				@error('email')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off" value="{{ old('email') }}">
+						                        </p>
+                                                <p id="login-form-username">
+						                    	  <label style="color:red;">Password</label><br>
+						                    	  				@error('password')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="password" class="inputbox" size="18" autocomplete="off" value="{{ old('password') }}">
+						                        </p>
+						                        
+						                       
+						                    	<a href="/index">
+                                                  Register
+                                                </a>
+                                                    <figure><img src="images/img.png" alt="#"/></figure>
+						                    	 </div>
+
+						                      </fieldset>
+						 </form>
+                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -81,14 +131,12 @@
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                                 <div class="text-bg">
-                                    <h1>amazing<br> 3d game</h1>
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> tempor incididunt ut</span>
-                                    <a href="#">download</a>
+                                   
                                 </div>
                             </div>
                              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
                                 <div class="text-img">
-                                   <figure><img src="images/img.png" alt="#"/></figure>
+                                  
                                 </div>
                             </div>
 
@@ -101,77 +149,7 @@
         </div>
     </header>
 
-    <!-- our -->
-    <div id="games" class="our">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Our Games</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 margin_bottom">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image1.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Angry Birds</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 margin_bottom">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image2.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Sanke</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image3.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Cricket</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
    
     <!-- end our -->
     <!-- We are -->
@@ -206,28 +184,7 @@
     <!-- end We are -->
 
     <!-- about  -->
-    <div id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>About Our Game</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about-box">
-                        <figure><img src="images/about.jpg" alt="#" /></figure>
-
-                        <p> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            <br> labore et dolore magna aliqua. Ut enim conseq</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    
     <!-- end abouts -->
 
     <!-- testimonial -->

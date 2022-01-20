@@ -935,7 +935,7 @@
      text-align: left;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
+ .main-menu ul>li:nth-child  {
      padding-right: 0px;
 }
  .nav>li {
@@ -1489,5 +1489,8 @@ color: #f00;
  .copyright a:hover {
      color: #f00;
 }
+
+
+
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
