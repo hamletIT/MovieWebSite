@@ -219,7 +219,7 @@
                     <div class="clients_box">
                         <h3>Jecoo</h3>
                         <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            <br>aliqua. Ut enim ad minim veniam, quis
+                            <br>aliqua. Ut enim ad minim venia m, quis
                             <br>nostrud exercitation ullamco</p>
 
                     </div>
