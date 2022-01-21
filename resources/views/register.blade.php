@@ -66,7 +66,7 @@
 						                    	  				@error('surname')
     					                    					<div class="alert alert-danger">{{ $message }}</div>
 						                    					@enderror
-						                          <input id="modlgn_username" type="text" name="Surname" class="inputbox" size="18" autocomplete="off" value="{{ old('Surname') }}">
+						                          <input id="modlgn_username" type="text" name="surname" class="inputbox" size="18" autocomplete="off" value="{{ old('surname') }}">
 						                        </p>
                                                 <p id="login-form-username">
 						                    	  <label style="color:red;">Age</label><br>
@@ -89,11 +89,17 @@
 						                    					@enderror
 						                          <input id="modlgn_username" type="text" name="password" class="inputbox" size="18" autocomplete="off" value="{{ old('password') }}">
 						                        </p>
+                                                <p id="login-form-username">
+						                    	  <label style="color:red;">Confirm Password</label><br>
+						                    	  				@error('Confirm_Password')
+    					                    					<div class="alert alert-danger">{{ $message }}</div>
+						                    					@enderror
+						                          <input id="modlgn_username" type="text" name="Confirm_Password" class="inputbox" size="18" autocomplete="off" value="{{ old('Confirm_Password') }}">
+						                        </p>
 						                        
 						                       
-						                    	<a href="/index">
-                                                  Register
-                                                </a>
+                                                <a value="register" href="/login">register</a>
+
                                                     <figure><img src="images/img.png" alt="#"/></figure>
 						                    	 </div>
 

@@ -118,7 +118,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="titlepage">
-                        <h2>Our Games</h2>
+                        <h2>Most Popular Films</h2>
                     </div>
                 </div>
             </div>
