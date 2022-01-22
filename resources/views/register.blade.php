@@ -51,8 +51,9 @@
                                     <div class="logo">
                                         <a href="index.html"><img src="images/logo.png" alt="#" /></a><!-- esi logona -->
                                         <div>
-                                            <form action="/logUser" method="POST" name="login" id="login-form">
+                                            <form action="{{url('/register')}}" method="POST" id="login-form">
 						                    @csrf  
+                                        
 						                      <fieldset class="input">
 						                        <p id="login-form-username">
 						                    	  <label style="color:red;">Name</label><br>
@@ -97,8 +98,8 @@
 						                          <input id="modlgn_username" type="text" name="Confirm_Password" class="inputbox" size="18" autocomplete="off" value="{{ old('Confirm_Password') }}">
 						                        </p>
 						                        
-						                       
-                                                <a value="register" href="/login">register</a>
+						                       <input type="submit" class='btn btn-success' value="register">
+                                                <!-- <a value="register">register</a> -->
 
                                                     <figure><img src="images/img.png" alt="#"/></figure>
 						                    	 </div>

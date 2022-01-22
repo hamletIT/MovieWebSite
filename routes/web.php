@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\MoveController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,7 +19,7 @@ Route::view('/register','register');
 Route::view('/login','login');
 
 Route::post('/login', [MoveController::class, 'login']);
-Route::post('/register', [HamoController::class, 'registerUser']);
+Route::post('/register', [MoveController::class, 'registerUser']);
 
 
 
