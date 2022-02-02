@@ -1014,12 +1014,13 @@
      transition: 0s;
 }
 .header-top {
-    background: url(../images/banner2.jpg);
+    background: url(../images/678078.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
     min-height: 980px;
     background-position: right top;
+    background-attachment:fixed;
 }
  .header {
      position: absolute;
@@ -1490,7 +1491,110 @@ color: #f00;
      color: #f00;
 }
 
+.move_body{
+   
+    width: 75%;
+    height: 300px;
+    margin-left: 10%;
+    z-index: initial;
+    display: flex;
+    flex-direction: row;
+}
+.films_list{
+  
+    width: 75%;
+    height: 300px;
+    margin-left: 10%;
+    z-index: initial;
+    display: flex;
+    flex-direction: row;
+  
+    border-radius: 25px;
+}
 
+.janr{ 
+    background-image: url('../images/colection.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    width: 70%;
 
+    border-style:outset;
+    display: flex;
+    flex-direction: row;
+
+}
+.sort{
+    border-radius: 25px;
+    width: 35%;
+    background-color: rgb(73, 77, 75);
+    border-style:outset;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.dropdown{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.photos_move_body1{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(97, 141, 53);
+    border-radius: 25px;
+    border-style:outset;
+}
+.move_body_block{
+    width: 231px;
+    height: 294px;
+    object-fit: fill;
+    border-radius: 25px;
+}
+.photos_move_body2{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(42, 137, 150);
+    border-radius: 25px;
+    border-style:outset;
+}
+.photos_move_body3{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(27, 21, 75);
+    border-radius: 25px;
+    border-style:outset;
+}
+.photos_move_body4{
+    width: 20%;
+    height: 300px;
+    background-color: rgba(76, 9, 85, 0.315);
+    border-radius: 25px;
+    border-style:outset;
+}
+.photos_move_body5{
+    width: 20%;
+    height: 300px;
+    background-color: rgb(41, 5, 5);
+    border-radius: 25px;
+    border-style:outset;
+}
+
+.tari{
+   
+    margin-left: 60px;
+    margin-top: 10px;
+  
+}
+.janrer{
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+.erkir{
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/

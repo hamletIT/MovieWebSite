@@ -92,16 +92,109 @@
                                 </div>
                             </div>
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
-                                <div class="text-bg">
-                                   
+                           
+                                <div class="move_body">
+                                  <div class="photos_move_body1">
+                                    <img class="move_body_block" src="images/1.jpg" alt="#" />
+                                  </div>
+                                  <div class="photos_move_body2">
+                                  <img class="move_body_block" src="images/2.jpg" alt="#" />
+                                  </div>
+                                  <div class="photos_move_body3">
+                                  <img class="move_body_block" src="images/33.jpg" alt="#" />
+                                  </div>
+                                  <div class="photos_move_body4">
+                                  <img class="move_body_block" src="images/4.jpg" alt="#" />
+                                  </div>
+                                  <div class="photos_move_body5">
+                                  <img class="move_body_block" src="images/5.jpg" alt="#" />
+                                  </div>
+
                                 </div>
-                            </div>
-                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
-                                <div class="text-img">
-                                   <figure><img src="images/img.png" alt="#"/></figure>
+                              
+                                <div class="films_list">
+                                    <div class="sort">
+                                       
+                                        <div class="tari">
+                                            <ul>
+                                                <h1>tari</h1>
+                                              <li><a href="">2022</a></li>
+                                              <li><a href="">2021</a></li>
+                                              <li><a href="">2020</a></li>
+                                              <li><a href="">2019</a></li>
+                                              <li><a href="">2018</a></li>
+                                              <li><a href="">2017</a></li>
+                                              <li><a href="">2016</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="janrer">
+                                            <ul>
+                                            <h1>janrer</h1>
+                                              <li><a href="">multfilm</a></li>
+                                              <li><a href="">baevik</a></li>
+                                              <li><a href="">fantastika</a></li>
+                                              <li><a href="">kamedia</a></li>
+                                              <li><a href="">ujas</a></li>
+                                              <li><a href="">drama</a></li>
+                                              <li><a href="">melodrama</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="erkir">
+                                            <ul>
+                                            <h1>erkir</h1>
+                                              <li><a href="">AMN</a></li>
+                                              <li><a href="">USA</a></li>
+                                              <li><a href="">KANADA</a></li>
+                                              <li><a href="">ARMENIA</a></li>
+                                              <li><a href="">AVSTRALIA</a></li>
+                                              <li><a href="">SAUT-ARABIA</a></li>
+                                              <li><a href="">NIDERLANDS</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="janr"> 
+                                          <div class="dropdown">
+                                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est taru
+                                          <span class="caret"></span></button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">2021</a></li>
+                                            <li><a href="#">2020</a></li>
+                                            <li><a href="#">2019</a></li>
+                                          </ul>
+                                          </div>
+
+                                          <div class="dropdown">
+                                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est erkri
+                                          <span class="caret"></span></button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">AMN</a></li>
+                                            <li><a href="#">USA</a></li>
+                                            <li><a href="#">KANADA</a></li>
+                                          </ul>
+                                          </div>
+
+                                          <div class="dropdown">
+                                          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est janri
+                                          <span class="caret"></span></button>
+                                          <ul class="dropdown-menu">
+                                            <li><a href="#">multfilm</a></li>
+                                            <li><a href="#">baevik</a></li>
+                                            <li><a href="#">fantastika</a></li>
+                                            <li><a href="#">kamedia</a></li>
+                                            <li><a href="#">ujas</a></li>
+                                            <li><a href="#">drama</a></li>
+                                            <li><a href="#">melodrama</a></li>
+                                          </ul>
+                                          </div>
+                                          
+                                        </div>
+                                    </div>
+                    
+
                                 </div>
-                            </div>
+                           
+                            
 
 
                         </div>
@@ -113,214 +206,8 @@
     </header>
 
     <!-- our -->
-    <div id="games" class="our">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Most Popular Films</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 margin_bottom">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image1.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Angry Birds</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 margin_bottom">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image2.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Sanke</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="row">
-
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                            <div class="two-box">
-                                <figure><img src="images/our-image3.jpg" alt="#" /></figure>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
-
-                            <div class="Games">
-                                <h3>Cricket</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-                                <a href="#">Free Download</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  
    
-    <!-- end our -->
-    <!-- We are -->
-    <div id="software" class="We_are">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Software</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                     <div class="box_bg">
-                         <div class="box_bg_img">
-                             <figure><img src="images/soft.jpg"></figure>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
-                     <div class="box_text">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                         <a href="#">Read more</a>
-                     </div>
-                 </div> 
-            </div>
-        </div>
-    </div>
-    <!-- end We are -->
-
-    <!-- about  -->
-    <div id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>About Our Game</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about-box">
-                        <figure><img src="images/about.jpg" alt="#" /></figure>
-
-                        <p> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            <br> labore et dolore magna aliqua. Ut enim conseq</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- end abouts -->
-
-    <!-- testimonial -->
-    <div id="testimonial" class="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="titlepage">
-                        <h2>Testimonial</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 offset-md-2">
-                    <div class="row box">
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test1.png" alt="#" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test2.png" alt="#" /></figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                            <div class="testimonial_box">
-                                <figure><img src="images/test3.png" alt="#" /></figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="clients_box">
-                        <h3>Jecoo</h3>
-                        <p>adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            <br>aliqua. Ut enim ad minim veniam, quis
-                            <br>nostrud exercitation ullamco</p>
-
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- end testimonial -->
-
-    <!-- contact -->
-    <div id="contact" class="contact">
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-12">
-
-                    <form class="contact_bg">
-                        <div class="row">
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <input class="contactus" placeholder="Name" type="text" name="Name">
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <input class="contactus" placeholder="Phone" type="text" name="Email">
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <input class="contactus" placeholder="Email" type="text" name="Email">
-                            </div>
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                            </div>
-                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                <button class="send">Send</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-        </div>
-    </div>
-   
-    <!-- end contact -->
-
-    <!--  footer -->
     <footr>
         <div class="footer ">
             <div class="container">
