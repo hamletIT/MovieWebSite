@@ -158,9 +158,9 @@
                                           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est taru
                                           <span class="caret"></span></button>
                                           <ul class="dropdown-menu">
-                                            <li><a href="#">2021</a></li>
-                                            <li><a href="#">2020</a></li>
-                                            <li><a href="#">2019</a></li>
+                                            <li><a class="a_drop" href="#">2021</a></li>
+                                            <li><a class="a_drop" href="#">2020</a></li>
+                                            <li><a class="a_drop" href="#">2019</a></li>
                                           </ul>
                                           </div>
 
@@ -168,9 +168,9 @@
                                           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est erkri
                                           <span class="caret"></span></button>
                                           <ul class="dropdown-menu">
-                                            <li><a href="#">AMN</a></li>
-                                            <li><a href="#">USA</a></li>
-                                            <li><a href="#">KANADA</a></li>
+                                            <li><a class="a_drop" href="#">AMN</a></li>
+                                            <li><a class="a_drop" href="#">USA</a></li>
+                                            <li><a class="a_drop" href="#">KANADA</a></li>
                                           </ul>
                                           </div>
 
@@ -178,17 +178,60 @@
                                           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">@est janri
                                           <span class="caret"></span></button>
                                           <ul class="dropdown-menu">
-                                            <li><a href="#">multfilm</a></li>
-                                            <li><a href="#">baevik</a></li>
-                                            <li><a href="#">fantastika</a></li>
-                                            <li><a href="#">kamedia</a></li>
-                                            <li><a href="#">ujas</a></li>
-                                            <li><a href="#">drama</a></li>
-                                            <li><a href="#">melodrama</a></li>
+                                            <li><a  class="a_drop" href="#">multfilm</a></li>
+                                            <li><a  class="a_drop" href="#">baevik</a></li>
+                                            <li><a  class="a_drop" href="#">fantastika</a></li>
+                                            <li><a  class="a_drop" href="#">kamedia</a></li>
+                                            <li><a  class="a_drop" href="#">ujas</a></li>
+                                            <li><a  class="a_drop" href="#">drama</a></li>
+                                            <li><a  class="a_drop" href="#">melodrama</a></li>
                                           </ul>
                                           </div>
                                           
                                         </div>
+                                    </div>
+                                    <div class="films_header">
+                                            <div class="reklam">
+                                                <h1>reklami tex</h1>
+                                            </div>
+                                            <div class="film_pleyer">
+                                               <div class="films_name">
+                                                   <h1 class="vernargir">Sard mard@</h1>
+                                               </div>
+                                               <div class="films_photo_and_xar">
+                                                        <div class="film_photo">
+                                                            <div class="film_photo_1">
+                                                            <img  src="images/spider_man.jpg" class="glxavor_img" alt=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="films_xar">
+                                                             <div class="films_xar1">
+                                                                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit 
+                                                                     eveniet deleniti aspernatur nulla. Repellat commodi fugit dolor molestiae
+                                                                      incidunt sapiente culpa laudantium reiciendis. Eveniet 
+                                                                      ratione aspernatur quis voluptate adipisci consectetur?
+                                                                 </h3>
+                                                             </div>
+                                                                <div class="films_xar2">
+                                                                    <div class="films_xar2_2">
+                                                                        <div class="text"><h2>Erkir: </h2></div>
+                                                                        <div class="text"><h2>Tari:</h2></div>
+                                                                        <div class="text"><h2>Janr:</h2></div>
+                                                                        <div class="text"><h2>Rejisor:</h2></div>
+                                                                        <div class="text"><h2>Tevoxutyun:</h2></div>
+                                                                    </div>
+                                                                    <div class="films_xar2_3">
+                                                                        <div class="text1"><h2>inch vor mi info</h2></div>
+                                                                        <div class="text1"><h2>inch vor mi info</h2></div>
+                                                                        <div class="text1"><h2>inch vor mi info</h2></div>
+                                                                        <div class="text1"><h2>inch vor mi info</h2></div>
+                                                                        <div class="text1"><h2>inch vor mi info</h2></div>
+                                                                    </div>
+                                                                    
+                                                                </div>
+                                                        </div>
+                                               </div>
+                                            </div>
                                     </div>
                     
 

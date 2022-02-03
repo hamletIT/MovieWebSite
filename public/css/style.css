@@ -1527,7 +1527,7 @@ color: #f00;
 .sort{
     border-radius: 25px;
     width: 35%;
-    background-color: rgb(73, 77, 75);
+    background-color: #2B2B2B;
     border-style:outset;
     text-align: center;
     display: flex;
@@ -1581,20 +1581,152 @@ color: #f00;
 }
 
 .tari{
-   
+    background-color: #2B2B2B;
     margin-left: 60px;
     margin-top: 10px;
-  
+    text-align: start;
 }
 .janrer{
     margin-left: 30px;
     margin-top: 10px;
-   
+    text-align: start;
+    background-color: #2B2B2B;
 }
 .erkir{
     margin-left: 30px;
     margin-top: 10px;
+    text-align: start;
+    background-color: #2B2B2B;
+}
+.films_header{
+    margin-left: 160px;
+    width: 75%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+.reklam{
+    border-radius: 25px;
+    width: 35%;
+    height: 600px;
+    background-color: rgb(12, 90, 51);
+    border-radius: 25px;
+    border-style:outset;
+    text-align: center;
    
+}
+.film_pleyer{
+    border-radius: 25px;
+    width: 70%;
+    background-color: #2B2B2B;
+    border-style:outset;
+    display: flex;
+    flex-direction: column;
+
+}
+.films_name{
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+}
+.films_photo_and_xar{
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+}
+.film_photo{
+    width: 60%;
+    height: 100%;
+    background-color: #2B2B2B;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.films_xar{
+    width: 100%;
+  
+    background-color: #2B2B2B;
+  
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text{
+    background-color: #2B2B2B;
+    border-radius: 25px;
+    width: 130px;
+    height: 50px;
+    margin-top: auto;
+    text-align:center;
+}
+.films_xar1{
+    width: 100%;
+    height:200px ;
+    background-color: #2B2B2B;
+    text-align: start;
+    border-radius: 25px;
+}
+.films_xar2{
+    width: 100%;
+    height:100% ;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+}
+.films_xar2_2{
+    width: 35%;
+    height:100% ;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.films_xar2_3{
+    width: 100%;
+    height:100% ;
+    background-color: #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.text1{
+    background-color: #2B2B2B;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    margin-top: auto;
+    text-align:center;
+}
+.vernargir{
+    
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.film_photo_1{
+    background-color: #2B2B2B;
+    width: 80%;
+    height: 65%;
+    margin-top: 14%;
+    border-radius: 25px;
+    
+}
+.glxavor_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+a,h1,h3,h2{
+    color: #fff;
+}
+.a_drop{
+    color: #000;
 }
 /** end footer **/
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/

@@ -33,7 +33,7 @@ class MoveController extends Controller
     }
     public function registerUser(Request $request){
         $validator = Validator::make($request->all(), [
-            'name' => 'required|max:255',
+            'name' => 'required|max:22',
             'surname' => 'required|max:255',
             'age' => 'required|before:-13 years',
             'email'  => 'required|unique:users|email',
