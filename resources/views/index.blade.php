@@ -1,47 +1,48 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head> -->
     <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"> -->
     <!-- site metas -->
-    <title>Narek</title>
+    <!-- <title>Narek</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content=""> -->
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <!-- Responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
     <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
     <!-- Tweaks for older IEs-->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-</head>
+<!-- </head> -->
 <!-- body -->
 
-<body class="main-layout">
+<!-- <body class="main-layout"> -->
     <!-- loader  -->
-    <div class="loader_bg">
+    <!-- <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-    </div>
+        
+    </div> -->
     <!-- end loader -->
     <!-- header -->
-    <header>
+    <!-- <header> -->
         <!-- header inner -->
-        <div class="header-top">
+        <!-- <div class="header-top">
             <div class="header">
                 <div class="container-fluid">
                     <div class="row">
@@ -50,11 +51,15 @@
                                 <div class="center-desk">
                                     <div class="logo">
                                         <a href="index.html"><img src="images/logo.png" alt="#" /></a><!-- esi logona -->
-                                        
+<!--                                         
                                     </div>
+                                    
                                 </div>
+                                
                             </div>
+                            
                         </div>
+                        
                         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                             
                                         <ul class="top_icon">
@@ -62,21 +67,14 @@
                                             <li> <a href="/register">Signup</a> </li>
                                             <li class="mean-last">
                                              <a href="#"><img src="images/search_icon.png" alt="#" /></a>
+                                             
                                             </li>
+                                            
                                         </ul>
+                                        
+                                        
                         </div>
-                    </div>
-                </div>
-            </div>
-            <!-- end header inner -->
-
-            <!-- end header -->
-            <section class="slider_section">
-                <div class="banner_main">
-
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-2 padding_left0">
+                        <div class="col-md-2 padding_left0">
                                 <div class="menu-area">
                                 <div class="limit-box">
                                     <nav class="main-menu">
@@ -90,7 +88,23 @@
                                         </ul>
                                     </nav>
                                 </div>
-                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> --> 
+            <!-- end header inner -->
+
+            <!-- end header -->
+@extends('layout.head_foot')
+@section('title', 'move page')
+@section('content')
+            <section class="slider_section">
+                <div class="banner_main">
+
+                    <div class="container-fluid">
+                        <div class="row">
+                           
                             </div>
                            
                                 <div class="move_body">
@@ -246,12 +260,13 @@
         
            </section>
         </div>
-    </header>
+
+    @endsection
 
     <!-- our -->
   
    
-    <footr>
+    <!-- <footr>
         <div class="footer ">
             <div class="container">
                 <div class="row">
@@ -328,19 +343,19 @@
                 </div>
             </div>
         </div>
-    </footr>
+    </footr> -->
     <!-- end footer -->
     <!-- Javascript files-->
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
-    <script src="js/plugin.js"></script>
+    <script src="js/plugin.js"></script> -->
     <!-- sidebar -->
-    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
 
-</body>
+<!-- </body>
 
-</html>
+</html> -->
