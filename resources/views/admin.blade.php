@@ -1,6 +1,6 @@
 <div>
 
-<form action="/AddProduct" method="POST" name="AddProduct" id="login-form" enctype="multipart/form-data">
+<form action="/Addmove" method="POST" name="Addmove" id="login-form" enctype="multipart/form-data">
 						@csrf  
 						  <fieldset class="input">
 						    <p id="login-form-username">
