@@ -55,7 +55,7 @@ class MoveController extends Controller
                  $user->age = $request->input('age');
                  $user->password = Hash::make($request->input('Password'));
                  $user->save();
-                dd($user);
+                // dd($user);
                 
         }
     }
@@ -128,6 +128,7 @@ class MoveController extends Controller
     
        
     }
+    
 
  
 

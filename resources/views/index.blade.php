@@ -99,6 +99,7 @@
 @extends('layout.head_foot')
 @section('title', 'move page')
 @section('content')
+<div class="midele"></div>
             <section class="slider_section">
                 <div class="banner_main">
 
@@ -109,19 +110,19 @@
                            
                                 <div class="move_body">
                                   <div class="photos_move_body1">
-                                    <img class="move_body_block" src="images/1.jpg" alt="#" />
+                                    <img class="img1" src="images/1.jpg" alt="">
                                   </div>
                                   <div class="photos_move_body2">
-                                  <img class="move_body_block" src="images/2.jpg" alt="#" />
+                                    <img class="img1" src="images/2.jpg" alt="">
                                   </div>
                                   <div class="photos_move_body3">
-                                  <img class="move_body_block" src="images/33.jpg" alt="#" />
+                                    <img class="img1" src="images/33.jpg" alt="">
                                   </div>
                                   <div class="photos_move_body4">
-                                  <img class="move_body_block" src="images/4.jpg" alt="#" />
+                                    <img class="img1" src="images/4.jpg" alt="">
                                   </div>
                                   <div class="photos_move_body5">
-                                  <img class="move_body_block" src="images/5.jpg" alt="#" />
+                                    <img class="img1" src="images/5.jpg" alt="">
                                   </div>
 
                                 </div>
@@ -206,7 +207,18 @@
                                     </div>
                                     <div class="films_header">
                                             <div class="reklam">
-                                                <h1>reklami tex</h1>
+                                            <video class="reklam_video" width="320" height="180" autoplay muted  loop> 
+                                              <source src="video_reklam/first_reklam.mp4" type="video/mp4"> 
+                                              Your browser does not support the video tag:
+                                            </video> 
+                                            <video class="reklam_video" width="320" height="180" autoplay muted  loop> 
+                                              <source src="video_reklam/second_reklam.mp4"> 
+                                              Your browser does not support the video tag:
+                                            </video>
+                                            <video class="reklam_video" width="320" height="180" autoplay muted loop> 
+                                              <source src="video_reklam/3_video.mp4"> 
+                                              Your browser does not support the video tag:
+                                            </video>
                                             </div>
                                             <div class="film_pleyer">
                                                <div class="films_name">
@@ -216,6 +228,18 @@
                                                         <div class="film_photo">
                                                             <div class="film_photo_1">
                                                             <img  src="images/spider_man.jpg" class="glxavor_img" alt=""/>
+                                                            </div>
+                                                            
+                                                            <div class="reyting_block">
+                                                            <img class="star_svg" src="https://img.icons8.com/fluency/37/000000/star.png"/>
+                                                            <img class="star_svg" src="https://img.icons8.com/fluency/37/000000/star.png"/>
+                                                            <img class="star_svg" src="https://img.icons8.com/fluency/37/000000/star.png"/>
+                                                            <img class="star_svg" src="https://img.icons8.com/fluency/37/000000/star.png"/>
+                                                            <img class="star_svg" src="https://img.icons8.com/fluency/37/000000/star.png"/>
+                                                            </div>
+                                                            <div class="click_for_watch_block">
+                                                                <h1 class="pley_h1">PLEY</h1>
+                                                                <img class="pley_svg" src="https://www.svgrepo.com/show/185928/play-button.svg" alt="">
                                                             </div>
                                                         </div>
                                                         <div class="films_xar">
@@ -250,21 +274,17 @@
                     
 
                                 </div>
-                           
-                            
-
-
+                                                                        
                         </div>
                     </div>
                 </div>
         
            </section>
         </div>
-
     @endsection
 
     <!-- our -->
-  
+   
    
     <!-- <footr>
         <div class="footer ">
