@@ -43,7 +43,7 @@
                     <div class="row">           
                        <nav id="navmain" class="navbar navbar-expand-lg navbar-light">
                             <div class="container-fluid">
-                              <a id="nav_a" class="navbar-brand" href="#">Lianai sayt</a>
+                              <a id="nav_a" class="navbar-brand" href="#">Narek web site</a>
                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
@@ -53,22 +53,28 @@
                                     <a class="nav-link active" aria-current="page" href="#"></a>
                                   </li>
                                   <li class="nav-item">
-                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Comments</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Telegram</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Facebook</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="#">Writer Admin</a>
                                   </li>
                                 </ul>
                                 <form class="d-flex">
                                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                   <button class="btn btn-outline-success" type="submit">Search</button>
                                 </form>
+                                <li class="nav-item">
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="nav_a" class="nav-link active" aria-current="page" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
                               </div>
                             </div>
                         </nav>
